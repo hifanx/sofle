@@ -103,11 +103,11 @@
 
         mac {
             bindings = <
-&kp GRAVE            &kp N1  &kp N2  &kp N3        &kp N4            &kp N5               &kp UP_ARROW     &kp N6             &kp N7         &kp N8     &kp N9   &kp N0    &kp MINUS
-&kp TAB              &kp Q   &kp W   &kp E         &kp R             &kp T                &kp DOWN_ARROW   &kp Y              &kp U          &kp I      &kp O    &kp P     &kp EQUAL
-&ctrl_esc LCTRL ESC  &kp A   &kp S   &kp D         &kp F             &kp G                &kp LEFT_ARROW   &kp H              &kp J          &kp K      &kp L    &kp SEMI  &kp APOS
-&kp LSHFT            &kp Z   &kp X   &kp C         &kp V             &kp B                &kp RIGHT_ARROW  &kp N              &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
-&kp C_MUTE           &trans  &trans  &kp LEFT_ALT  &kp LEFT_COMMAND  &space_mo 1 SPACE    &kp ENTER        &space_mo 2 ENTER  &kp BACKSPACE  &mo 3      &kp LT   &kp GT
+&kp ESC     &kp N1  &kp N2  &kp N3        &kp N4            &kp N5               &kp UP_ARROW     &kp N6             &kp N7         &kp N8     &kp N9   &kp N0    &kp BSLH
+&kp TAB     &kp Q   &kp W   &kp E         &kp R             &kp T                &kp DOWN_ARROW   &kp Y              &kp U          &kp I      &kp O    &kp P     &kp LBKT
+&kp LCTRL   &kp A   &kp S   &kp D         &kp F             &kp G                &kp LEFT_ARROW   &kp H              &kp J          &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LSHFT   &kp Z   &kp X   &kp C         &kp V             &kp B                &kp RIGHT_ARROW  &kp N              &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp QMARK
+&kp C_MUTE  &trans  &trans  &kp LEFT_ALT  &kp LEFT_COMMAND  &space_mo 1 SPACE    &kp ENTER        &space_mo 2 ENTER  &kp BACKSPACE  &mo 3      &kp LT   &kp GT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -119,7 +119,7 @@
 &trans      &kp F1    &kp F2  &kp F3     &kp F4     &kp F5       &mmv MOVE_UP     &kp F6     &kp F7    &kp F8     &kp F9    &kp F10    &kp F11
 &trans      &kp EXCL  &kp AT  &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS  &kp STAR   &kp LPAR  &kp RPAR   &kp F12
 &trans      &trans    &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK    &mmv MOVE_LEFT   &kp LBKT   &kp RBKT  &kp MINUS  &kp PLUS  &kp UNDER  &kp EQUAL
-&trans      &trans    &trans  &trans     &trans     &trans       &mmv MOVE_RIGHT  &kp LBRC   &kp RBRC  &kp LT     &kp GT    &kp PIPE   &kp BSLH
+&trans      &trans    &trans  &trans     &trans     &trans       &mmv MOVE_RIGHT  &kp LBRC   &kp RBRC  &kp LT     &kp GT    &kp GRAVE  &kp TILDE
 &kp C_MUTE  &trans    &trans  &trans     &trans     &trans       &mkp LCLK        &trans     &trans    &trans     &trans    &trans
             >;
 
@@ -129,11 +129,11 @@
 
         macros {
             bindings = <
-&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &trans  &kp F6  &kp F7           &kp F8           &kp F9           &kp F10     &kp F11
-&trans   &qq     &trans  &trans  &trans  &trans    &trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans      &kp F12
-&trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans      &trans
-&trans   &trans  &name   &gmail  &trans  &trans    &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans      &trans
-&trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans           &trans           &kp KP_NUMBER_0  &kp KP_DOT
+&trans    &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &trans  &kp F6  &kp F7           &kp F8           &kp F9           &kp F10     &kp F11
+&trans    &qq     &trans  &trans  &trans  &trans    &trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans      &kp F12
+&kp CAPS  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans      &trans
+&trans    &trans  &name   &gmail  &trans  &trans    &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans      &trans
+&trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans           &trans           &kp KP_NUMBER_0  &kp KP_DOT
             >;
 
             display-name = "layer2";
