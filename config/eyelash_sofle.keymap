@@ -114,20 +114,20 @@
             display-name = "LAYER0";
         };
 
-        left {
+        symbols {
             bindings = <
-&kp ESC     &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6     &kp F7     &kp F8     &kp F9  &kp F10  &kp F11
-&trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans   &kp F12
-&trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &mkp MB4   &mkp MB5   &trans     &trans  &trans   &trans
-&trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans     &trans     &trans     &trans  &trans   &trans
-&kp C_MUTE  &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans     &trans     &trans     &trans  &trans
+&trans      &kp F1    &kp F2  &kp F3     &kp F4     &kp F5       &mmv MOVE_UP     &kp F6     &kp F7    &kp F8     &kp F9    &kp F10    &kp F11
+&trans      &kp EXCL  &kp AT  &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS  &kp STAR   &kp LPAR  &kp RPAR   &kp F12
+&trans      &trans    &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK    &mmv MOVE_LEFT   &kp LBKT   &kp RBKT  &kp MINUS  &kp PLUS  &kp UNDER  &kp EQUAL
+&trans      &trans    &trans  &trans     &trans     &trans       &mmv MOVE_RIGHT  &kp LBRC   &kp RBRC  &kp LT     &kp GT    &kp PIPE   &kp BSLH
+&kp C_MUTE  &trans    &trans  &trans     &trans     &trans       &mkp LCLK        &trans     &trans    &trans     &trans    &trans
             >;
 
             display-name = "layer1";
             sensor-bindings = <&scroll_encoder>;
         };
 
-        right {
+        macros {
             bindings = <
 &kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &trans  &kp F6  &kp F7           &kp F8           &kp F9           &kp F10     &kp F11
 &trans   &qq     &trans  &trans  &trans  &trans    &trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans      &kp F12
