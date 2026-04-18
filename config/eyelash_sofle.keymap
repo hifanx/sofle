@@ -108,11 +108,11 @@
 
         numpad {
             bindings = <
-&trans     &kp LA(LS(N1))  &kp LA(LS(N2))  &kp LA(LS(N3))  &kp LA(LS(N4))  &kp LA(LS(N5))    &mmv MOVE_UP     &kp LA(LS(N6))  &kp LA(LS(N7))  &kp LA(LS(N8))  &kp LA(LS(N9))  &kp LA(LS(N0))  &trans
-&kp F1     &kp F2          &kp F3          &kp F4          &kp F5          &kp F6            &mmv MOVE_DOWN   &kp PLUS        &kp N7          &kp N8          &kp N9          &kp MINUS       &trans
-&mkp RCLK  &kp LSHFT       &kp LCTRL       &kp LALT        &kp LGUI        &mkp LCLK         &mmv MOVE_LEFT   &kp ASTERISK    &kp N4          &kp N5          &kp N6          &kp FSLH        &trans
-&kp F7     &kp F8          &kp F9          &kp F10         &kp F11         &kp F12           &mmv MOVE_RIGHT  &kp COMMA       &kp N1          &kp N2          &kp N3          &kp DOT         &trans
-&trans     &trans          &trans          &trans          &trans          &trans            &mkp LCLK        &kp ENTER       &kp BACKSPACE   &kp SPACE       &kp N0          &kp EQUAL
+&trans     &kp F1     &kp F2     &kp F3    &kp F4    &kp F5       &mmv MOVE_UP     &kp F6        &kp F7         &kp F8     &kp F9  &kp F10    &kp F11
+&trans     &trans     &trans     &trans    &trans    &trans       &mmv MOVE_DOWN   &kp PLUS      &kp N7         &kp N8     &kp N9  &kp MINUS  &kp F12
+&mkp RCLK  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &mkp LCLK    &mmv MOVE_LEFT   &kp ASTERISK  &kp N4         &kp N5     &kp N6  &kp FSLH   &kp K_SCROLL_UP
+&trans     &trans     &trans     &trans    &trans    &trans       &mmv MOVE_RIGHT  &kp COMMA     &kp N1         &kp N2     &kp N3  &kp DOT    &kp K_SCROLL_DOWN
+&trans     &trans     &trans     &trans    &trans    &trans       &mkp LCLK        &kp ENTER     &kp BACKSPACE  &kp SPACE  &kp N0  &kp EQUAL
             >;
 
             label = "num";
@@ -120,11 +120,11 @@
 
         symbols {
             bindings = <
-&kp TILDE  &kp EXCL   &kp AT        &kp PLUS      &kp AMPS    &kp PRCNT        &trans  &trans      &trans      &trans      &trans     &trans       &trans
-&kp LBKT   &kp LBRC   &kp LPAR      &kp RPAR      &kp RBRC    &kp RBKT         &trans  &kp K_REDO  &kp K_UNDO  &kp K_COPY  &kp K_CUT  &kp K_PASTE  &trans
-&kp HASH   &kp CARET  &kp EQUAL     &kp UNDER     &kp DOLLAR  &kp ASTRK        &trans  &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT  &trans       &trans
-&kp GRAVE  &kp LT     &kp PIPE      &kp MINUS     &kp GT      &kp BACKSLASH    &trans  &trans      &trans      &trans      &trans     &trans       &trans
-&trans     &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE   &kp BACKSPACE    &trans  &trans      &trans      &trans      &trans     &trans
+&kp TILDE  &kp EXCL   &kp AT        &kp PLUS      &kp AMPS    &kp PRCNT        &trans  &trans    &trans    &trans  &trans     &trans  &trans
+&kp LBKT   &kp LBRC   &kp LPAR      &kp RPAR      &kp RBRC    &kp RBKT         &trans  &trans    &trans    &trans  &trans     &trans  &trans
+&kp HASH   &kp CARET  &kp EQUAL     &kp UNDER     &kp DOLLAR  &kp ASTRK        &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&kp GRAVE  &kp LT     &kp PIPE      &kp MINUS     &kp GT      &kp BACKSLASH    &trans  &trans    &trans    &trans  &trans     &trans  &trans
+&trans     &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE   &kp BACKSPACE    &trans  &trans    &trans    &trans  &trans     &trans
             >;
 
             label = "sym";
