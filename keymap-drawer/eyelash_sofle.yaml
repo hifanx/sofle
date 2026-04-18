@@ -67,31 +67,31 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   num:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Alt+Sft+1, s: Alt+Sft+!}
-  - {t: Alt+Sft+2, s: Alt+Sft+@}
-  - {t: Alt+Sft+3, s: Alt+Sft+#}
-  - {t: Alt+Sft+4, s: Alt+Sft+$}
-  - {t: Alt+Sft+5, s: Alt+Sft+%}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: Alt+Sft+6, s: Alt+Sft+^}
-  - {t: Alt+Sft+7, s: Alt+Sft+&}
-  - {t: Alt+Sft+8, s: Alt+Sft+*}
-  - {t: Alt+Sft+9, s: Alt+Sft+(}
-  - {t: Alt+Sft+0, s: Alt+Sft+)}
-  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
   - F4
   - F5
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - +
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '-', s: _}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F12
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
@@ -104,20 +104,20 @@ layers:
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {t: /, s: '?'}
+  - SCROLL UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: ',', s: <}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: ., s: '>'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - SCROLL DOWN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -151,11 +151,11 @@ layers:
   - '}'
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - REDO
-  - UNDO
-  - COPY
-  - CUT
-  - PASTE
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '#'
   - ^
