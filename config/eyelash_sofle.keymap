@@ -35,6 +35,7 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
         tap-ms = <100>;
+        label = "SCROLL_ENCODER";
     };
 
     hold_tap: hold_tap {
@@ -128,7 +129,7 @@
             >;
 
             label = "sym";
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         system {
