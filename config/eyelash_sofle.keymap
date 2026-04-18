@@ -120,11 +120,11 @@
 
         symbols {
             bindings = <
-&kp TILDE  &kp EXCL   &kp AT     &trans     &trans      &kp PRCNT        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LBKT   &kp LBRC   &kp LPAR   &kp RPAR   &kp RBRC    &kp RBKT         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp HASH   &kp CARET  &kp EQUAL  &kp UNDER  &kp DOLLAR  &kp ASTRK        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp LT     &kp PIPE   &kp MINUS  &kp GT      &kp BACKSLASH    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans     &trans     &trans     &trans      &trans           &trans  &trans  &trans  &trans  &trans  &trans
+&kp TILDE  &trans     &trans     &trans     &trans      &trans           &trans  &trans      &trans      &trans      &trans     &trans       &trans
+&kp LBKT   &kp LBRC   &kp LPAR   &kp RPAR   &kp RBRC    &kp RBKT         &trans  &kp K_REDO  &kp K_UNDO  &kp K_COPY  &kp K_CUT  &kp K_PASTE  &trans
+&kp HASH   &kp CARET  &kp EQUAL  &kp UNDER  &kp DOLLAR  &kp ASTRK        &trans  &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT  &trans       &trans
+&kp GRAVE  &kp LT     &kp PIPE   &kp MINUS  &kp GT      &kp BACKSLASH    &trans  &trans      &trans      &trans      &trans     &trans       &trans
+&trans     &kp AMPS   &kp PLUS   &kp EXCL   &kp AT      &trans           &trans  &trans      &trans      &trans      &trans     &trans
             >;
 
             label = "sym";
